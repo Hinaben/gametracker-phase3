@@ -8,6 +8,11 @@
     <div class="conatainer">
         <div class="row">
             <div class="col-md-offset-4 col-md-6">
+                <!-- Sign in not successful message -->
+                <div class="alert alert-danger" id="AlertFlash" runat="server" visible="false">
+                    <asp:Label runat="server" ID="SigninFailedLabel" />
+                </div>
+
                 <h1>Sign in</h1>
 
                 <div class="panel-body">
@@ -22,7 +27,7 @@
                         </div>
 
                         <div class="text-right">
-                            <asp:Button Text="Login" ID="LoginButton" runat="server" CssClass="btn btn-primary" OnClick="LoginButton_Click" TabIndex="0" />
+                            <asp:Button Text="Sign in" ID="SigninButton" runat="server" CssClass="btn btn-primary" OnClick="SigninButton_Click" TabIndex="0" />
                         </div>
 
                     </div>

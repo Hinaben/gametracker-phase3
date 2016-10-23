@@ -136,9 +136,9 @@
     <Content Include="fonts\SEASRN__-webfont.svg" />
     <Content Include="fonts\stylesheet.css" />
     <Content Include="Scripts\insertpage.js" />
-    <Content Include="update.aspx" />
-    <Content Include="delete.aspx" />
-    <Content Include="insert.aspx" />
+    <Content Include="GameTracker\update.aspx" />
+    <Content Include="GameTracker\delete.aspx" />
+    <Content Include="GameTracker\insert.aspx" />
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-2.2.4.min.map" />
     <Content Include="fonts\SEASRN__-webfont.eot" />
@@ -207,25 +207,25 @@
     <Compile Include="signup.aspx.designer.cs">
       <DependentUpon>signup.aspx</DependentUpon>
     </Compile>
-    <Compile Include="update.aspx.cs">
+    <Compile Include="GameTracker\update.aspx.cs">
       <DependentUpon>update.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="update.aspx.designer.cs">
+    <Compile Include="GameTracker\update.aspx.designer.cs">
       <DependentUpon>update.aspx</DependentUpon>
     </Compile>
-    <Compile Include="delete.aspx.cs">
+    <Compile Include="GameTracker\delete.aspx.cs">
       <DependentUpon>delete.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="delete.aspx.designer.cs">
+    <Compile Include="GameTracker\delete.aspx.designer.cs">
       <DependentUpon>delete.aspx</DependentUpon>
     </Compile>
-    <Compile Include="insert.aspx.cs">
+    <Compile Include="GameTracker\insert.aspx.cs">
       <DependentUpon>insert.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="insert.aspx.designer.cs">
+    <Compile Include="GameTracker\insert.aspx.designer.cs">
       <DependentUpon>insert.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
@@ -246,6 +246,7 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

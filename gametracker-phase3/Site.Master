@@ -23,20 +23,19 @@
     <form id="form1" runat="server">
 
         <!-- Main Navigation -->
-        <nav class="navbar" >
-          
+        <nav class="navbar">
+
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="navbar-header">
+                <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-               </div>    
-                 
-            
+                </div>
+
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -48,21 +47,17 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Modify Data<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="update.aspx">Update</a></li>
-                                <li><a href="insert.aspx">Add</a></li>
-                                <li><a href="delete.aspx">Delete</a></li>              
+                                <li><a href="/GameTracker/update.aspx">Update</a></li>
+                                <li><a href="/GameTracker/insert.aspx">Add</a></li>
+                                <li><a href="/GameTracker/delete.aspx">Delete</a></li>
                             </ul>
                         </li>
-
-
-
-
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
             </div>
 
-               
+
             <!-- /.container-fluid -->
         </nav>
         <!-- Main Content -->
@@ -73,10 +68,10 @@
     </form>
 
     <!-- Footer -->
-    <nav class="navbar navbar-default navbar-fixed-bottom" style="border:hidden">
+    <nav class="navbar navbar-default navbar-fixed-bottom" style="border: hidden">
         <div class="container text-primary">
-            <h4 >&copy; 2016 - Game tracker-Jing Zhou -Hinaben Patel  </h4>
-           
+            <h4>&copy; 2016 - Game tracker-Jing Zhou -Hinaben Patel  </h4>
+
 
 
         </div>

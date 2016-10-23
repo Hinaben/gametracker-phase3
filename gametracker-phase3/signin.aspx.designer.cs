@@ -13,6 +13,24 @@ namespace gametracker_phase3 {
     public partial class About {
         
         /// <summary>
+        /// AlertFlash control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl AlertFlash;
+        
+        /// <summary>
+        /// SigninFailedLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label SigninFailedLabel;
+        
+        /// <summary>
         /// UserNameTextBox control.
         /// </summary>
         /// <remarks>
@@ -31,12 +49,12 @@ namespace gametracker_phase3 {
         protected global::System.Web.UI.WebControls.TextBox PasswordTextBox;
         
         /// <summary>
-        /// LoginButton control.
+        /// SigninButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button LoginButton;
+        protected global::System.Web.UI.WebControls.Button SigninButton;
     }
 }
