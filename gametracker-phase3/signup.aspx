@@ -8,7 +8,7 @@
     <div class="conatainer">
         <div class="row">
             <div class="col-md-offset-4 col-md-6">
-                <h1>Sing UP </h1>
+                <h1>Sign up</h1>
 
                 <div class="form-group">
                     <label for="FirstNameTextBox">First Name</label>

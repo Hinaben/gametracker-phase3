@@ -8,10 +8,27 @@
     <div class="conatainer">
         <div class="row">
             <div class="col-md-offset-4 col-md-6">
-                <h1>SIGN IN PAGE</h1>
+                <h1>Sign in</h1>
 
+                <div class="panel-body">
+                        <div class="form-group">
+                            <label class="control-label" for="UserNameTextBox">Username:</label>
+                            <asp:TextBox runat="server" CssClass="form-control" ID="UserNameTextBox" placeholder="Username" required="true" TabIndex="0"></asp:TextBox>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label" for="PasswordTextBox">Password:</label>
+                            <asp:TextBox runat="server" TextMode="Password" CssClass="form-control" ID="PasswordTextBox" placeholder="Password" required="true" TabIndex="0"></asp:TextBox>
+                        </div>
+
+                        <div class="text-right">
+                            <asp:Button Text="Login" ID="LoginButton" runat="server" CssClass="btn btn-primary" OnClick="LoginButton_Click" TabIndex="0" />
+                        </div>
+
+                    </div>
             </div>
         </div>
     </div>
 
 </asp:Content>
+
