@@ -7,7 +7,7 @@
     <!--Description: Sign up page-->
     <div class="conatainer">
         <div class="row">
-            <div class="col-md-offset-4 col-md-6">
+            <div class="col-md-offset-4 col-md-4">
 
                 <!-- Message box for sign up not sucessful -->
                   <div class="alert alert-danger" id="AlertFlash" runat="server" visible="false">
@@ -40,7 +40,7 @@
                         ControlToCompare="PasswordTextBox" CssClass="label label-danger" />
                 </div>
                 <asp:Button Text="Cancel" ID="CancelButton" runat="server" CssClass="btn btn-warning" OnClick="CancelButton_Click" UseSubmitBehavior="false" CausesValidation="false" TabIndex="0" />
-                <asp:Button ID="SignUpButton" CssClass="btn btn-primary btn-lg" runat="server" Text="Sign up" OnClick="SignUpButton_Click" />
+                <asp:Button ID="SignUpButton" CssClass="btn btn-primary btn-md" runat="server" Text="Sign up" OnClick="SignUpButton_Click" />
 
             </div>
         </div>

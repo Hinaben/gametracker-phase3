@@ -7,7 +7,7 @@
 <!--Description: Sign in page-->
     <div class="conatainer">
         <div class="row">
-            <div class="col-md-offset-4 col-md-6">
+            <div class="col-md-offset-4 col-md-4">
                 <!-- Sign in not successful message -->
                 <div class="alert alert-danger" id="AlertFlash" runat="server" visible="false">
                     <asp:Label runat="server" ID="SigninFailedLabel" />
